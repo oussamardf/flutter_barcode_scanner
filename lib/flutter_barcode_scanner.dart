@@ -54,7 +54,7 @@ class FlutterBarcodeScanner {
   static Stream? getBarcodeStreamReceiver(String lineColor,
       String cancelButtonText, bool isShowFlashIcon, ScanMode scanMode) {
     if (cancelButtonText.isEmpty) {
-      cancelButtonText = 'Cancel';
+      cancelButtonText = 'Canceltest';
     }
 
     // Pass params to the plugin
