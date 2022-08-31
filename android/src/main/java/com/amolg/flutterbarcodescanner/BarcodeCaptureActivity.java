@@ -113,7 +113,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
             try {
                     buttonText = (String) getIntent().getStringExtra("cancelButtonText");
         } catch (Exception e) {
-            buttonText = "Cancel";
+            buttonText = "Canceljava";
             Log.e("BCActivity:onCreate()", "onCreate: " + e.getLocalizedMessage());
         }
 
