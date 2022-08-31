@@ -26,7 +26,7 @@ class FlutterBarcodeScanner {
   static Future<String> scanBarcode(String lineColor, String cancelButtonText,
       bool isShowFlashIcon, ScanMode scanMode) async {
     if (cancelButtonText.isEmpty) {
-      cancelButtonText = 'Cancel';
+      cancelButtonText = 'Canceltest1';
     }
 
     // Pass params to the plugin
